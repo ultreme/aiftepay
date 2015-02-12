@@ -1,0 +1,63 @@
+/* aiftepay 1.0 design */
+
+/* generalities */
+body {
+font-size:12px;
+font-family:verdana;
+text-align:center;
+}
+
+#conteneur {
+width: 600px;
+text-align:justify;
+margin:auto;
+}
+
+#header {
+height:150px;
+width: 600px;
+background-image:url(images/header.jpg);
+}
+
+#content {
+padding:5px;
+background-color:#e8e8e8;
+border-bottom: solid 1px #000000;
+border-left: solid 1px #000000;
+border-right: solid 1px #000000;
+}
+
+#pied {
+text-align:right;
+color:#222222; 
+font-variant:small-caps;
+border-top: dashed 1px #529024;
+font-weight:bold;
+margin-top:5px;
+}
+
+#infos {
+color:#222222; 
+border-top: dashed 1px #529024;
+border-bottom: dashed 1px #529024;
+padding-top:5px;
+padding-bottom:5px;
+}
+
+	/* links */
+	a img {
+	border: none;
+	}
+	a {
+	text-decoration:none;
+	color:#222222; 
+	font-variant:small-caps;
+	}
+	a:hover  {
+	font-variant:small-caps;
+	color:black; 
+	font-weight:bold;
+	}	
+	.left {
+	text-align:left;
+	}
